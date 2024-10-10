@@ -15,10 +15,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
 }
 
 nav h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 nav > ul{
@@ -67,4 +68,13 @@ nav li a{
 
 .banner-img img{
    width: 100%;
+}
+
+.our-sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 100px;
+    padding: 10px;
 }
