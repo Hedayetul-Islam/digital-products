@@ -83,6 +83,7 @@ nav li a{
 .popular{
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 50px;
 }
 
 .popular-content{
@@ -102,10 +103,6 @@ nav li a{
     width: 300px;
 }
 
-.product-name{
-    font-size: 28px;
-    font-weight: 500px;
-}
 .price{
     font-size: 24px;
     margin-top: 5px;
