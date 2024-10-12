@@ -84,3 +84,34 @@ nav li a{
     text-align: center;
     font-size: 3rem;
 }
+
+.popular-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.card-img img{
+    width: 300px;
+}
+
+.product-name{
+    font-size: 28px;
+    font-weight: 500px;
+}
+.price{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-solid{
+    color: #FB8200;
+}
