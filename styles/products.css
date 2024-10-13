@@ -3,10 +3,18 @@
 
 
 *{
-    max-width: 1280px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* Nav related design */
@@ -42,6 +50,7 @@ nav li a{
 
 .banner{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 40px;
     margin-top: 100px;
@@ -111,4 +120,52 @@ nav li a{
 
 .fa-solid{
     color: #FB8200;
+}
+
+.featured-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.featured-img img{
+    width: 400px;
+}
+
+.featured-content h2{
+    font-size: 38px;
+    font-weight: 700px;
+}
+
+.featured-content p{
+    color: #6C6C6C;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.featured-content button{
+    background-color: #E02C6D;
+    color: #FFF;
+    padding: 10px 24px;
+    border: none;
+    font-weight: 600;
+}
+
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+    padding: 50px 10px;
+}
+footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-brands{
+    margin-left: 15px;
+    font-size: 20px;
 }
