@@ -99,7 +99,7 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 25px;
 }
 
 .card{
@@ -109,7 +109,7 @@ nav li a{
     padding: 10px;
 }
 .card-img img{
-    width: 300px;
+    width: 100%;
 }
 
 .price{
@@ -168,4 +168,28 @@ footer p{
 .fa-brands{
     margin-left: 15px;
     font-size: 20px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 576px) {
+    header,
+    main
+    {
+        text-align: center;
+        /* padding: 0 15px; */
+        margin: 0 auto;
+    }
+    
+    nav,
+    .banner,
+    .our-sponsors,
+    .featured-container
+    {
+        flex-direction: column;
+    }
+
+    .popular-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
