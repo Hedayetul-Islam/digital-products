@@ -180,15 +180,21 @@ footer p {
     header,
     main {
         text-align: center;
-        /* padding: 0 15px; */
+        padding: 0 5px;
         margin: 0 auto;
     }
 
     nav,
     .banner,
-    .our-sponsors,
     .featured-container {
         flex-direction: column;
+    }
+
+    .our-sponsors{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
+        gap: 30px;
     }
 
     .popular-content {
